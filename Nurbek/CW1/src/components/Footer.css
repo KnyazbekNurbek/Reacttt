@@ -1,0 +1,20 @@
+.site-footer {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  background: #0f172a;
+  color: #cbd5e1;
+  border-top: 1px solid #111827;
+}
+
+.site-footer__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.muted { color: #94a3b8; }

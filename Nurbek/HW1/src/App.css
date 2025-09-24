@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f1f5f9;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #475569;
+}

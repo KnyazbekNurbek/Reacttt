@@ -1,0 +1,33 @@
+.profile-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 560px;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
+}
+
+.profile-card__avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.profile-card__body {
+  display: grid;
+  gap: 4px;
+}
+
+.profile-card__name {
+  margin: 0;
+}
+
+.profile-card__email {
+  margin: 0;
+  color: #475569;
+}

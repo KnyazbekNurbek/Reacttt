@@ -1,0 +1,11 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
